@@ -29,7 +29,7 @@ First, clone this repository in your GOPATH, then you can start an example clien
     }
     
     // Return server data
-    data, ismap := info.Description.(map[string]interface) 
+    data, ismap := info.Description.(map[string]interface{}) 
     
     if ismap {
     
